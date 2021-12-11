@@ -9,8 +9,7 @@ class Node:
 
 	
     def depthFirstSearch(self, array):
-        # Write your code here
-		array.append(self.name)
+        array.append(self.name)
 		if self.children:
 			for child in self.children:
 				child.depthFirstSearch(array)
