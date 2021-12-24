@@ -6,7 +6,6 @@ def maxSubsetSumNoAdjacent(array):
 	else:
 		firstSum = array[0]
 		secondSum = max(array[0], array[1])
-		#sumArray = array[:]
 		for i in range(2, len(array)):
 			result = max(secondSum, firstSum + array[i])
 			firstSum, secondSum = secondSum, result
