@@ -9,8 +9,7 @@ def removeDuplicatesFromLinkedList(linkedList):
 	currentVal = linkedList
 	while linkedList is not None:
 		temp = currentVal.next
-		while temp is not None:
-			if currentVal.value == temp.value:
+		while temp is not None and currentVal.value == temp.value:
 				temp.next = currentVal.next.next
 				currentVal = temp
 		
