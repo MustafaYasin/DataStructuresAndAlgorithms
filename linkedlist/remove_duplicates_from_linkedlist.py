@@ -15,4 +15,4 @@ def removeDuplicatesFromLinkedList(linkedList):
 		currentNode = temp
 		
 		
-    return linkedList
+	return linkedList
