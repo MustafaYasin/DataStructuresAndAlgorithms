@@ -20,3 +20,8 @@ def binarySearch(array, target):
 			rightPointer = midPointer - 1		
 		
 	return - 1
+
+
+##############################################################
+# This is a recursive solution to the binary search problem  #
+##############################################################
